@@ -6,7 +6,9 @@
 
 Catto-CSS is divided into 4 types of animations with a simple syntax: **Hover**, **Automatic**, **Infinity** and **Scroll Animations.**
 ### Hover Animations (h-)
-in progress
+The animation is activated when the pointer is over the element
+**Example**
+
 
 ### Automatic Animations (A-)
 In progress
