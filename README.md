@@ -4,8 +4,26 @@
 
 # Documentation
 
-
 Catto-CSS is divided into 4 types of animations with a simple syntax: **Hover**, **Automatic**, **Infinity** and **Scroll Animations.**
+
+# How to use
+## Hover, Automatic and Infinity animations
+- Download Catto-CSS
+- Include catto.css at the head of your file
+- Make a class in the element that you want animate 
+- Select and copy the class in the Animations Section of the Catto Website (Comming Soon)
+- Paste the name of the animations in the element class
+
+## Scroll animations
+- Download Catto-CSS
+- Include catto.css at the head of your file
+- Include the JQuery CDN in the end of your file 
+- Next, download the waypoints in http://imakewebthings.com/waypoints/
+- Include the jquery.waypoints.js under the JQuery CDN
+- Then, include the scrollcat.js under the jquery.waypoints.js
+- Select and copy the class in the Animations Section of the Catto Website (Comming Soon)
+- Finally, paste the name of the animation in the element class
+
 ## Hover Animations (h-)
 The animation is activated when the pointer is over the element 
 ### Example:
