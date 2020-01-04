@@ -1,0 +1,1344 @@
+
+/*Catto CSS v1.20.01 | 2019 | MIT License | 
+A proyect by: Alejandro Avalos | https://github.com/Avalojandro/Catto-CSS */
+
+/*******************************************************************************************/
+
+/*HOVER ANIMATIONS*/
+
+/*h-float*/
+.h-float{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-float:hover{
+    box-shadow: 0 8px 8px 0 #bebbbc,0 8px 8px 0 #adadab;
+    transform: translate(0px,5px);
+        -webkit-transform: translate(0px,5px);
+        -moz-transform:translate(0px,5px);
+}
+
+/*h-rotate*/
+.h-rotate-180{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-rotate-180:hover{
+    transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+}
+.h-rotate-360{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-rotate-360:hover{
+    transform: rotateZ(360deg);
+        -webkit-transform: rotateZ(360deg);
+        -moz-transform: rotateZ(360deg);
+}
+
+/*h-flex*/
+.h-flex{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-flex:hover{
+    transform: matrix(3.0, .5, 0, 1.0, 1.0, 1.0);
+        -webkit-transform: matrix(3.0, .5, 0, 1.0, 1.0, 1.0);
+        -moz-transform: matrix(3.0, .5, 0, 1.0, 1.0, 1.0);
+}
+
+/*h-translate*/
+.h-transLeft{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-transLeft:hover{
+    transform: translatex(-20px);
+        -webkit-transform: translatex(-20px);
+        -moz-transform: translatex(-20px);
+}
+.h-transRight{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-transRight:hover{
+    transform: translatex(20px);
+        -webkit-transform: translatex(20px);
+        -moz-transform: translatex(20px);
+}
+.h-transDown{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;    
+}
+.h-transDown:hover{
+    transform: translatey(20px);
+        -webkit-transform: translatey(20px);
+        -moz-transform: translatey(20px);
+}
+.h-transUp{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-transUp:hover{
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+}
+
+/*h-tostretch*/
+.h-toStretch{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-toStretch:hover{
+    transform: scale(2, 0.5);
+        -webkit-transform: scale(2, 0.5);
+        -moz-transform: scale(2, 0.5);
+}
+
+/*h-skew*/
+.h-skew{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-skew:hover{
+    transform: skew(30deg, 20deg);
+        -webkit-transform: skew(30deg, 20deg);
+        -moz-transform: skew(30deg, 20deg);
+}
+.h-skewX{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-skewX:hover{
+    transform: skewX(30deg);
+        -webkit-transform: skewX(30deg);
+        -moz-transform: skewX(30deg);
+}
+.h-skewY{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-skewY:hover{
+    transform: skewY(1.07rad);
+        -webkit-transform: skewY(1.07rad);
+        -moz-transform: skewY(1.07rad);
+}
+
+/*h-float-fluid*/
+.h-float-fluid{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-float-fluid:hover{
+    transform: translate3d(12px, 50%, 3em);
+        -webkit-transform: translate3d(12px, 50%, 3em);
+        -moz-transform: translate3d(12px, 50%, 3em);
+    box-shadow: 0 8px 8px 0 #bebbbc,0 8px 8px 0 #adadab;
+}
+
+/*h-grow*/
+.h-grow{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-grow:hover{
+    transform: scale3d(1.5, 1.5, 0.3);
+        -webkit-transform: scale3d(1.5, 1.5, 0.3);
+        -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+
+/*h-flip*/
+.h-flipUp-360{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-flipUp-360:hover{
+    transform: rotateX(360deg);
+        -webkit-transform: rotateX(360deg);
+        -moz-transform: rotateX(360deg);
+}
+.h-flipUp-180{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-flipUp-180:hover{
+    transform: rotateX(180deg);
+        -webkit-transform: rotateX(180deg);
+        -moz-transform: rotateX(180deg);
+}
+.h-flipSide-180{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-flipSide-180:hover{
+    transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+}
+.h-flipSide-360{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.h-flipSide-360:hover{
+    transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+}
+
+/*h-shake*/
+.h-shake:hover{
+    animation-name: shake;
+        -webkit-animation-name: shake;
+        -moz-animation-name: shake;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+}
+
+.h-shakeFix:hover{
+    animation-name: shakefix;
+        -webkit-animation-name: shakefix;
+        -moz-animation-name: shakefix;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+}
+
+.h-bounceShakeX:hover{
+    animation-name: bounce-shakeX;
+        -webkit-animation-name: bounce-shakeX;
+        -moz-animation-name: bounce-shakeX;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+.h-bounceShakeY:hover{
+    animation-name: bounce-shakeY;
+        -webkit-animation-name: bounce-shakeY;
+        -moz-animation-name: bounce-shakeY;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+.h-surprise:hover{
+    animation-name: surprise;
+        -webkit-animation-name: surprise;
+        -moz-animation-name: surprise;
+    animation-duration: .8s;
+        -webkit-animation-duration: .8s;
+        -moz-animation-duration: .8s;
+}
+
+/*Jello*/
+.h-jello:hover {
+    animation-name: jello;
+        -webkit-animation-name: jello;
+        -moz-animation-name: jello;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    transform-origin: center;
+        -webkit-transform-origin: center;
+        -moz-transform-origin: center;
+}
+
+/*Swing*/
+.h-swing:hover{
+    animation-name: swing;
+        -webkit-animation-name: swing;
+        -moz-animation-name: swing;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+/*Hinge*/
+.h-hinge:hover {
+    animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+    animation-name: hinge;
+        -webkit-animation-name: hinge;
+        -moz-animation-name: hinge;
+  }
+
+
+
+
+/*AUTOMATIC ANIMATIONS*/
+
+/*Shake*/
+.a-surprise{
+    animation-name: surprise;
+        -webkit-animation-name: surprise;
+        -moz-animation-name: surprise;
+    animation-duration: .8s;
+        -webkit-animation-duration: .8s;
+        -moz-animation-duration: .8s;
+}
+
+/*Slide*/
+.a-slideFadeLeft{
+    animation-name: slide-fade-left;
+        -webkit-animation-name: slide-fade-left;
+        -moz-animation-name: slide-fade-left;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+.a-slideFadeRight{
+    animation-name: slide-fade-right;
+        -webkit-animation-name: slide-fade-right;
+        -moz-animation-name: slide-fade-right;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+.a-slideFadeDown{
+    animation-name: slide-fade-down;
+        -webkit-animation-name: slide-fade-down;
+        -moz-animation-name: slide-fade-down;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+.a-slideFadeUp{
+    animation-name: slide-fade-up;
+        -webkit-animation-name: slide-fade-up;
+        -moz-animation-name: slide-fade-up;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+.a-slideLeft{
+    animation-name: slide-left;
+        -webkit-animation-name: slide-left;
+        -moz-animation-name: slide-left;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+.a-slideRight{
+    animation-name: slide-right;
+        -webkit-animation-name: slide-right;
+        -moz-animation-name: slide-right;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+/*Blink*/
+.a-blink{
+    animation-name: blink;
+        -webkit-animation-name: blink;
+        -moz-animation-name: blink;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+/*Breath*/
+.a-sigh{
+    animation-name: sigh;
+        -webkit-animation-name: sigh;
+        -moz-animation-name: sigh;
+    animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+}
+
+.a-respite{
+    animation-name: respite;
+        -webkit-animation-name: respite;
+        -moz-animation-name: respite;
+    animation-duration: 3s;
+        -webkit-animation-duration: 3s;
+        -moz-animation-duration: 3s;
+}
+
+/*Bounce*/
+.a-bounce{
+    animation-name: a-bounce;
+        -webkit-animation-name: a-bounce;
+        -moz-animation-name: a-bounce;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+/*Beat*/
+.a-heartBeat{
+    animation-name: heartBeat;
+        -webkit-animation-name: heartBeat;
+        -moz-animation-name: heartBeat;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+/*Zoom Out*/
+.a-zoomOutRight{
+    animation-name: zoomOutRight;
+        -webkit-animation-name: zoomOutRight;
+        -moz-animation-name: zoomOutRight;
+    animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+}
+
+.a-zoomOutLeft{
+    animation-name: zoomOutLeft;
+        -webkit-animation-name: zoomOutLeft;
+        -moz-animation-name: zoomOutLeft;
+    animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+}
+
+.a-zoomOutUp{
+    animation-name: zoomOutUp;
+        -webkit-animation-name: zoomOutUp;
+        -moz-animation-name: zoomOutUp;
+    animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+}
+
+.a-zoomOutDown{
+    animation-name: zoomOutDown;
+        -webkit-animation-name: zoomOutDown;
+        -moz-animation-name: zoomOutDown;
+    animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+}
+
+/*Show*/
+.a-showRotate{
+    animation-name: showRotate;
+        -webkit-animation-name: showRotate;
+        -moz-animation-name: showRotate; 
+    animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+}
+
+/*Swing*/
+.a-swing{
+    animation-name: swing;
+        -webkit-animation-name: swing;
+        -moz-animation-name: swing;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+/*Jello*/
+.a-jello {
+    animation-name: jello;
+        -webkit-animation-name: jello;
+        -moz-animation-name: jello;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    transform-origin: center;
+        -webkit-transform-origin: center;
+        -moz-transform-origin: center;
+}
+
+/*Hinge*/
+.a-hinge {
+    animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+    animation-name: hinge;
+        -webkit-animation-name: hinge;
+        -moz-animation-name: hinge;
+  }
+
+
+/*INIFINITY ANIMATIONS*/
+
+/*Bounce*/
+.i-bounce{
+    animation-name: bounce .5s alternate infinite ease-in;
+        -webkit-animation-name: bounce .5s alternate infinite ease-in;
+        -moz-animation-name: bounce .5s alternate infinite ease-in;
+}
+.i-bounceLeft{
+    animation-name: bounce-left .5s alternate infinite ease-in;
+        -webkit-animation-name: bounce-left .5s alternate infinite ease-in;
+        -moz-animation-name: bounce-left .5s alternate infinite ease-in;
+}
+.i-bounceRight{
+    animation-name: bounce-right .5s alternate infinite ease-in;
+        -webkit-animation-name: bounce-right .5s alternate infinite ease-in;
+        -moz-animation-name: bounce-right .5s alternate infinite ease-in;
+}
+.i-bouncing{
+    animation-name: i-bouncing;
+        -webkit-animation-name: i-bouncing;
+        -moz-animation-name: i-bouncing; 
+    animation-duration: 2s;
+        -webkit-animation-name: i-bouncing;
+        -moz-animation-name: i-bouncing;
+    animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+}
+
+/*Shake*/
+.i-shakeX{
+    animation-name: bounce-shakeX .5s alternate infinite ease-in;
+        -webkit-animation-name: bounce-shakeX .5s alternate infinite ease-in;
+        -moz-animation-name: bounce-shakeX .5s alternate infinite ease-in;
+}
+.i-shakeY{
+    animation-name: bounce-shakeY .5s alternate infinite ease-in;
+        -webkit-animation-name: bounce-shakeY .5s alternate infinite ease-in;
+        -moz-animation-name: bounce-shakeY .5s alternate infinite ease-in;
+}
+.i-shake{
+animation-name: shake;
+    -webkit-animation-name: shake;
+    -moz-animation-name: shake;
+animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+}
+/*Skew*/
+.i-skewX{
+    animation-name: iSkewX;
+        -webkit-animation-name: iSkewX;
+        -moz-animation-name: iSkewX; 
+    animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite; 
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+.i-skewY{
+    animation-name: iSkewY;
+        -webkit-animation-name: iSkewY;
+        -moz-animation-name: iSkewY; 
+    animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite; 
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+/*Jello*/
+.i-jello {
+    animation-name: jello;
+        -webkit-animation-name: jello;
+        -moz-animation-name: jello;
+    animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    transform-origin: center;
+        -webkit-transform-origin: center;
+        -moz-transform-origin: center;
+}
+
+/*Swing*/
+.i-swing{
+    animation-name: swing;
+        -webkit-animation-name: swing;
+        -moz-animation-name: swing;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+}
+
+/*Hinge*/
+.i-hinge {
+    animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+    animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+    animation-name: hinge;
+        -webkit-animation-name: hinge;
+        -moz-animation-name: hinge;
+  }
+  
+/*SCROLL ANIMATIONS*/  
+    /*The scroll animations must be activated with Waypoints*/
+/*Opacity to the Scroll*/
+.s-o-bounce{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-surprise{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-slideFadeLeft{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-slideFadeRight{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-slideFadeDown{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-slideFadeUp{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-blink{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-sight{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-respite{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-bounce{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-heartbeat{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-zoomOutRight{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-zoomOutLeft{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-zoomOutUp{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-zoomOutDown{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-showRotate{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-swing{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-jello{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-hinge{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+.s-o-slideLeft{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 300ms ease-in;
+        -webkit-transition: all 300ms ease-in;
+        -moz-transition: all 300ms ease-in;
+}
+.s-o-slideRight{
+    opacity: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+    transition: all 200ms ease-in;
+        -webkit-transition: all 200ms ease-in;
+        -moz-transition: all 200ms ease-in;
+}
+
+/*Scroll animations*/
+/*Bounce*/
+.bounce{
+    animation-name: a-bounce;
+        -webkit-animation-name: a-bounce;
+        -moz-animation-name: a-bounce;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+/*Surprise*/
+.surprise{
+    animation-name: surprise;
+        -webkit-animation-name: surprise;
+        -moz-animation-name: surprise;
+    animation-duration: .8s;
+        -webkit-animation-duration: .8s;
+        -moz-animation-duration: .8s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+/*Slide Fade*/
+.slideFadeLeft{
+    animation-name: slide-fade-left;
+        -webkit-animation-name: slide-fade-left;
+        -moz-animation-name: slide-fade-left;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+.slideFadeRight{
+    animation-name: slide-fade-right;
+        -webkit-animation-name: slide-fade-right;
+        -moz-animation-name: slide-fade-right;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+.slideFadeDown{
+    animation-name: slide-fade-down;
+        -webkit-animation-name: slide-fade-down;
+        -moz-animation-name: slide-fade-down;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+.slideFadeUp{
+    animation-name: slide-fade-up;
+        -webkit-animation-name: slide-fade-up;
+        -moz-animation-name: slide-fade-up;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+.slideLeft{
+    animation-name: slide-left;
+        -webkit-animation-name: slide-left;
+        -moz-animation-name: slide-left;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+.slideRight{
+    animation-name: slide-right;
+        -webkit-animation-name: slide-right;
+        -moz-animation-name: slide-right;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+
+/*Blink*/
+.blink{
+    animation-name: blink;
+        -webkit-animation-name: blink;
+        -moz-animation-name: blink;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+/*Sight*/
+.sight{
+    animation-name: sigh;
+        -webkit-animation-name: sigh;
+        -moz-animation-name: sigh;
+    animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+/*Respite*/
+.respite{
+    animation-name: respite;
+        -webkit-animation-name: respite;
+        -moz-animation-name: respite;
+    animation-duration: 3s;
+        -webkit-animation-duration: 3s;
+        -moz-animation-duration: 3s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+/*Heartbeat*/
+.heartbeat{
+    animation-name: heartBeat;
+        -webkit-animation-name: heartBeat;
+        -moz-animation-name: heartBeat;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+/*Zoom Out*/
+.zoomOutRight{
+    animation-name: zoomOutRight;
+        -webkit-animation-name: zoomOutRight;
+        -moz-animation-name: zoomOutRight;
+    animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+.zoomOutLeft{
+    animation-name: zoomOutLeft;
+        -webkit-animation-name: zoomOutLeft;
+        -moz-animation-name: zoomOutLeft;
+    animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz--webkit-opacity: 1;
+}
+.zoomOutUp{
+    animation-name: zoomOutUp;
+        -webkit-animation-name: zoomOutUp;
+        -moz-animation-name: zoomOutUp;
+    animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz--webkit-opacity: 1;
+}
+.zoomOutDown{
+    animation-name: zoomOutDown;
+        -webkit-animation-name: zoomOutDown;
+        -moz-animation-name: zoomOutDown;
+    animation-duration: 1.5s;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz--webkit-opacity: 1;
+}
+/*Show Rotate*/
+.showRotate{
+    animation-name: showRotate; 
+        -webkit-animation-name: showRotate; 
+        -moz-animation-name: showRotate; 
+    animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+/*Swing*/
+.swing{
+    animation-name: swing;
+        -webkit-animation-name: swing;
+        -moz-animation-name: swing;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+/*Jello*/
+.jello{
+    animation-name: jello;
+        -webkit-animation-name: jello;
+        -moz-animation-name: jello;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    transform-origin: center;
+        -webkit-transform-origin: center;
+        -moz-transform-origin: center;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+}
+/*Hinge*/
+.hinge{
+    animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+    animation-name: hinge;
+        -webkit-animation-name: hinge;
+        -moz-animation-name: hinge;
+    opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;    
+}
+
+
+/*KEYFRAMES*/
+    @keyframes shake {
+        0%  {transform: translate(1px, 1px) rotate(0deg);}
+        10% {transform: translate(-1px, -2px) rotate(-1deg);}
+        20% {transform: translate(-3px, 0px) rotate(1deg);}
+        30% {transform: translate(3px, 2px) rotate(0deg);}
+        40% {transform: translate(1px, -1px) rotate(1deg);}
+        50% {transform: translate(-1px, 2px) rotate(-1deg);}
+        60% {transform: translate(-3px, 1px) rotate(0deg);}
+        70% {transform: translate(3px, 1px) rotate(-1deg);}
+        80% {transform: translate(-1px, -1px) rotate(1deg);}
+        90% {transform: translate(1px, 2px) rotate(0deg);}
+        100% {transform: translate(1px, -2px) rotate(-1deg);}
+    }
+
+    @keyframes shakefix {
+        0%  {transform: translate(1px, 1px);}
+        10% {transform: translate(-1px, -2px);}
+        20% {transform: translate(-3px, 0px);}
+        30% {transform: translate(3px, 2px);}
+        40% {transform: translate(1px, -1px);}
+        50% {transform: translate(-1px, 2px);}
+        60% {transform: translate(-3px, 1px);}
+        70% {transform: translate(3px, 1px);}
+        80% {transform: translate(-1px, -1px);}
+        90% {transform: translate(1px, 2px);}
+        100% {transform: translate(1px, -2px);}
+    }
+
+    @keyframes bounce{
+        0% {transform: translateY(-40%);}
+        100% {transform: translateY(0%);}
+    }
+
+    @keyframes bounce-left{
+        0% {transform: translateX(-40%);}
+        100% {transform: translateX(0%);}}
+
+    @keyframes bounce-right{
+        0% {transform: translateX(40%);}
+        100% {transform: translateX(0%);}
+    }
+
+    @keyframes bounce-shakeX{
+        0% {transform: translateX(-50%);}
+        12% {transform: translateX(50%);}
+        24% {transform: translateX(-20%);}
+        36% {transform: translateX(20%);}
+        48% {transform: translateX(-10%);}
+        60% {transform: translateX(10%);}
+        72% {transform: translateX(-5%);}
+        84% {transform: translateX(5%);}
+        96% {transform: translateX(0%);}
+        100% {transform: translateX(0%);}
+    }
+
+    @keyframes bounce-shakeY{
+        0%  {transform: translateY(-50%);}
+        12% {transform: translateY(50%);}
+        24% {transform: translateY(-20%);}
+        36% {transform: translateY(20%);}
+        48% {transform: translateY(-10%);}
+        60% {transform: translateY(10%);}
+        72% {transform: translateY(-5%);}
+        84% {transform: translateY(5%);}
+        96% {transform: translateY(0%);}
+        100% {transform: translateY(0%);}}
+
+    @keyframes slide-fade-left
+    {
+        0% {transform: translateX(-1000%);opacity: 0;}
+        2% {opacity: 0;}4%{opacity: 0;}
+        6% {opacity: 0;}8%{opacity: 0;}10%{opacity: 1;}
+        20% {transform: translateX(0%);opacity: 1;}
+        30% {transform: translateX(-100%);opacity: 1;}
+        40% {transform: translateX(0%);opacity: 1;}
+        50% {transform: translateX(-50%);opacity: 1;}
+        60% {transform: translateX(0%);opacity: 1;}
+        70% {transform: translateX(-20%);opacity: 1;}
+        80% {transform: translateX(0%);opacity: 1;}
+        90% {transform: translateX(-10%);opacity: 1;}
+        100% {transform: translateX(0%);opacity: 1;}
+    }
+
+    @keyframes slide-fade-right
+    {
+        0% {transform: translateX(1000%);opacity: 0;}
+        2% {opacity: 0;} 4% {opacity: 0;}
+        6% {opacity: 0;} 8% {opacity: 0;} 10% {opacity: 1;}
+        20% {transform: translateX(0%);opacity: 1;}
+        30% {transform: translateX(100%);opacity: 1;}
+        40% {transform: translateX(0%);opacity: 1;}
+        50% {transform: translateX(50%);opacity: 1;}
+        60% {transform: translateX(0%);opacity: 1;}
+        70% {transform: translateX(20%);opacity: 1;}
+        80% {transform: translateX(0%);opacity: 1;}
+        90% {transform: translateX(10%);opacity: 1;}
+        100% {transform: translateX(0%);opacity: 1;}
+    }
+
+
+    @keyframes slide-fade-down
+    {
+        0% {transform: translateY(800%);opacity: 0;}
+        2% {opacity: 0;}4%{opacity: 0;}
+        6% {opacity: 0;}8%{opacity: 0;} 10% {opacity: 1;}
+        20% {transform: translateY(0%);opacity: 1;}
+        30% {transform: translateY(100%);opacity: 1;}
+        40% {transform: translateY(0%);opacity: 1;}
+        50% {transform: translateY(50%);opacity: 1;}
+        60% {transform: translateY(0%);opacity: 1;}
+        70% {transform: translateY(20%);opacity: 1;}
+        80% {transform: translateY(0%);opacity: 1;}
+        90% {transform: translateY(10%);opacity: 1;}
+        100% {transform: translateY(0%);opacity: 1;}
+    }
+
+    @keyframes slide-fade-up
+    {
+        0% {transform: translateY(-1000%);opacity: 0;}
+        2% {opacity: 0;}4% {opacity: 0;}
+        6% {opacity: 0;}8% {opacity: 0;} 10% {opacity: 1;}
+        20% {transform: translateY(0%);opacity: 1;}
+        30% {transform: translateY(-100%);opacity: 1;}
+        40% {transform: translateY(0%);opacity: 1;}
+        50% {transform: translateY(-50%);opacity: 1;}
+        60% {transform: translateY(0%);opacity: 1;}
+        70% {transform: translateY(-20%);opacity: 1;}
+        80% {transform: translateY(0%);opacity: 1;}
+        90% {transform: translateY(-10%);opacity: 1;}
+        100% {transform: translateY(0%);opacity: 1;}
+    }
+
+    @keyframes slide-left
+    {
+        0% {transform: translateX(-1000%);}
+        100% {transform: translateX(0%);}
+    }
+
+    @keyframes slide-right
+    {
+        0% {transform: translateX(1000%);}
+        100% {transform: translateX(0%);}
+    }
+
+    @keyframes blink 
+    {
+        0% {opacity: 1;}
+        25% {opacity: 0;}
+        50% {opacity: 1;}
+        75% {opacity: 0}
+        100% {opacity: 1;}
+    }
+
+    @keyframes sigh
+    {
+        0% {transform: scale3d(1, 1, 1);}
+        50% {transform: scale3d(1.5, 1.5, 0.3);}
+        100% {transform: scale3d(1, 1, 1);}
+    }
+
+    @keyframes respite 
+    {
+    0% {transform: scale3d(1, 1, 1);}
+    25% {transform: scale3d(1.5, 1.5, 0.3);}
+    50% {transform: scale3d(1, 1, 1);}
+    75% {transform: scale3d(1.5, 1.5, 0.3);}
+    100% {transform: scale3d(1, 1, 1);}
+    }
+
+    @keyframes a-bounce
+    {
+        0% {transform: translateY(0px);}
+        10% {transform: translateY(-90px);}
+        18% {transform: translateY(-90px);}
+        20% {transform: translateY(0px);}
+        30% {transform: translateY(-70px);}
+        40% {transform: translateY(0px);}
+        50% {transform: translateY(-50px);}
+        60% {transform: translateY(0px);}
+        70% {transform: translateY(-30px);}
+        85% {transform: translateY(0px);}
+        90% {transform: translateY(-5px);}
+        100% {transform: translateY(0px);}
+    }
+
+    @keyframes heartBeat
+    {
+        0% {transform: scale3d(1, 1, 1);}
+        25% {transform: scale3d(1.5, 1.5, 0);}
+        50% {transform: scale3d(1, 1, 1);}
+        75% {transform: scale3d(1.5, 1.5, 0);}
+        100% {transform: scale3d(1, 1, 1);}
+    }
+
+    @keyframes zoomOutRight 
+    {
+        0% {transform: scale(1, 1);}
+        50% {transform: scale(.5, .5);}
+        75% {transform: translateX(1000px);}
+    }
+
+    @keyframes zoomOutLeft
+    {
+        0% {transform: scale(1, 1);}
+        50% {transform: scale(.5, .5);}
+        75% {transform: translateX(-1000px);}
+    }
+
+    @keyframes zoomOutUp 
+    {
+        0% {transform: scale(1, 1);}
+        50% {transform: scale(.5, .5);}
+        75% {transform: translateY(-1000px);}
+    }
+
+    @keyframes zoomOutDown 
+    {
+        0% {transform: scale(1, 1);}
+        50% {transform: scale(.5, .5);}
+        75% {transform: translateY(1000px);}
+    }
+
+    @keyframes surprise
+    {
+        0% {transform: rotate(0deg) scale(1,1);;}
+        10% {transform: rotate(7deg) scale(2,2);}
+        20% {transform: rotate(-7deg) scale(2,2);}
+        30% {transform: rotate(7deg) scale(2,2);}
+        40% {transform: rotate(-7deg) scale(2,2);}
+        50% {transform: rotate(7deg) scale(2,2);}
+        60% {transform: rotate(-7deg) scale(2,2);}
+        70% {transform: rotate(7deg) scale(2,2);}
+        80% {transform: rotate(-7deg) scale(2,2);}
+        90% {transform: rotate(7deg) scale(2,2);}
+        100% {transform: rotate(0deg) scale(1,1);}
+    }
+
+    @keyframes showRotate
+    {
+        0% {opacity: 0; transform: scale(0.1) rotate(0deg);}
+        50% {transform: scale(1) rotate(360deg);}
+        100% {transform: scale(1) rotate(360deg); opacity: 1;}
+    }
+
+    @keyframes iSkewX
+    {
+        50%{transform: skewX(40deg);}
+        100%{transform: skewX(0deg);}
+    }
+
+    @keyframes iSkewY
+    {
+        50% {transform: skewY(40deg);}
+        100% {transform: skewY(0deg);}
+    }
+
+    @keyframes i-bouncing
+    {
+        0% {transform: translateY(0px);}
+        10% {transform: translateY(-90px);}
+        15% {transform: translateY(-90px);}
+        18% {transform: translateY(0px);}
+        20% {transform: translateY(-70px);}
+        25% {transform: translateY(0px);}
+        30% {transform: translateY(-50px);}
+        35% {transform: translateY(0px);}
+        40% {transform: translateY(-30px);}
+        45% {transform: translateY(0px);}
+        50% {transform: translateY(-5px);}
+        60% {transform: translateY(0px);}
+        70% {transform: translateY(0px);}
+        80% {transform: translateY(0px);}
+        90% {transform: translateY(0px);}
+        100% {transform: translateY(0px);}
+    }
+
+    @keyframes swing {
+        20% {transform: rotate3d(0, 0, 1, 15deg);}
+        40% {transform: rotate3d(0, 0, 1, -10deg);}
+        60% {transform: rotate3d(0, 0, 1, 5deg);}
+        80% {transform: rotate3d(0, 0, 1, -5deg);}
+        to  {transform: rotate3d(0, 0, 1, 0deg);}
+    }
+      
+    @keyframes jello {
+        from,11.1%,to {transform: translate3d(0, 0, 0);}
+        22.2% {transform: skewX(-12.5deg) skewY(-12.5deg);}
+        33.3% {transform: skewX(6.25deg) skewY(6.25deg);}
+        44.4% {transform: skewX(-3.125deg) skewY(-3.125deg);}
+        55.5% {transform: skewX(1.5625deg) skewY(1.5625deg);}
+        66.6% {transform: skewX(-0.78125deg) skewY(-0.78125deg);}
+        77.7% {transform: skewX(0.390625deg) skewY(0.390625deg);}
+        88.8% {transform: skewX(-0.1953125deg) skewY(-0.1953125deg);}
+    }
+      
+    @keyframes hinge {
+        0% {transform-origin: top left;animation-timing-function: ease-in-out;}
+        20%, 60% {transform: rotate3d(0, 0, 1, 80deg); transform-origin: top left; animation-timing-function: ease-in-out;}
+        40%, 80% {transform: rotate3d(0, 0, 1, 60deg); transform-origin: top left; animation-timing-function: ease-in-out; opacity: 1;}
+        to {transform: translate3d(0, 700px, 0); opacity: 0;}
+      }
+
+
+/*velocity*/
+.fast{
+    transition: .2s, color .5s;
+        -webkit-transition: .2s, color .5s;
+        -moz-transition: .2s, color .5s;
+    animation-duration: .3s !important;
+        -webkit-animation-duration: .3s !important;
+        -moz-animation-duration: .3s !important;
+}
+.slow{
+    transition: 1s, color 1s;
+        -webkit-transition: 1s, color 1s;
+        -moz-transition: 1s, color 1s;
+    animation-duration: 3s !important;
+        -webkit-animation-duration: 3s !important;
+        -moz-animation-duration: 3s !important;
+}
