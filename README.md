@@ -1,6 +1,6 @@
 # Catto-CSS
 
->You can also collaborate with this amazing software, please go to "Catto-CSS / Work With Us" Repository for more information.
+>You can also collaborate with this amazing software, please go to https://github.com/Avalojandro/Work-With-Us-Catto-CSS- for more information.
 
 # Documentation
 
