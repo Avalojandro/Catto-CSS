@@ -1,11 +1,3 @@
-# Catto-CSS
-
->You can also collaborate with this amazing software, please go to https://github.com/Avalojandro/Work-With-Us-Catto-CSS- for more information.
-
-# Documentation
-
-Catto-CSS is divided into 4 types of animations with a simple syntax: **Hover**, **Automatic**, **Infinity** and **Scroll Animations.**
-
 # In Progress
 
 Catto-CSS es una libreria lanzada recientemente (enero-2020), por lo que con cada version se iran lanzando nuevas mejoras y caracteristicas
