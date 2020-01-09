@@ -1,12 +1,12 @@
 # In Progress
 
-Catto-CSS es una libreria lanzada recientemente (enero-2020), por lo que con cada version se iran lanzando nuevas mejoras y caracteristicas
-para esta, algunas de las actualizaciones en las que se esta trabajando son:
+Catto-CSS is a recently launched library (January-2020), so with each version new improvements and features will be launched
+For this, some of the updates that are being worked on are:
 
- - Creacion de paquete npm 
- - Creacion de Catto-CDN 
- - Configuracion de velocidades en las animaciones
+ - npm package creation 
+ - Catto-CDN creation 
+ - Animation speed settings
  - Jquery animations
  - Configure the animation with javascript
 
->Recuerda que tambien puedes colaborar con la produccion de este proyecto, solo sigue las instrucciones planteadas en https://github.com/Avalojandro/Work-With-Us-Catto-CSS-#work-with-us-catto-css-
+>Remember that you can also collaborate with the production of this project, just follow the instructions in https://github.com/Avalojandro/Work-With-Us-Catto-CSS-#work-with-us-catto-css-
