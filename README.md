@@ -43,5 +43,5 @@ You have an element `<h1>My Title</h1>` With the automatic animation you can pla
 ### Scroll Animations (S-o-)
 The animation is activated through the browser scroll
 ### Example:
-You have an element `<img src="./Images/picture.jpg">` With the automatic animation you can place the class `s-o-slideFadeLeft` in your element, so then your code look like this: **`<img class="s-o-slideFadeLeft" src="./Images/picture.jpg">`**
+You have an element `<img src="./Images/picture.jpg">` With the automatic animation you can place the class `s-o-slideFadeLeft` in your element, so then your code look like this: <-- **`<img class="s-o-slideFadeLeft" src="./Images/picture.jpg">`**
 
