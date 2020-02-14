@@ -1,4 +1,5 @@
 [![Only 32 Kb](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)](https://github.com/Avalojandro/Catto-CSS)
+[![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Avalojandro/Catto-CSS)
 
 # Catto-CSS
 ## https://cattocss.com
