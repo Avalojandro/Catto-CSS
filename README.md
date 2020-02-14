@@ -1,4 +1,4 @@
-[![Generic badge](https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Catto-CSS-<STATUS>-<COLOR>.svg)](https://shields.io/)
 
 # Catto-CSS
 ## https://cattocss.com
