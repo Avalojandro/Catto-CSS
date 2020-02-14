@@ -1,11 +1,11 @@
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-[![VERSION](https://img.shields.io/badge/Version-2.20-orange)](https://lbesson.mit-license.org/)
-[![OPEN SOURCE](https://img.shields.io/static/v1?label=Open-Source&message=❤&color=RED)](https://lbesson.mit-license.org/)
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-[![Website shields.io](https://img.shields.io/badge/CSS-Library-blue)](http://shields.io/)<br>
+[![VERSION](https://img.shields.io/badge/Version-2.20-orange)](https://github.com/Avalojandro/Catto-CSS)
+[![OPEN SOURCE](https://img.shields.io/static/v1?label=Open-Source&message=❤&color=RED)](https://github.com/Avalojandro/Catto-CSS)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://cattocss.com/)
+[![Website shields.io](https://img.shields.io/badge/CSS-Library-blue)](https://github.com/Avalojandro/Catto-CSS)
+[![Website shields.io](https://img.shields.io/badge/Star-Repository-inactive)](https://github.com/Avalojandro/Catto-CSS)<br>
 
-[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://cattocss.com/)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://cattocss.com/)
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://cattocss.com/)
 
@@ -55,5 +55,6 @@ You have an element `<h1>My Title</h1>` With the automatic animation you can pla
 ### Scroll Animations (s-o-)
 The animation is activated through the browser scroll
 ### Example:
-You have an element `<img src="./Images/picture.jpg">` With the automatic animation you can place the class `s-o-slideFadeLeft` in your element, so then your code look like this: **`<img class="s-o-slideFadeLeft" src="./Images/picture.jpg">`**
+You have an element `<img src="./Images/picture.jpg">` With the automatic animation you can place the class `s-o-slideFadeLeft` in your element, so then your code look like this: **`<img class="s-o-slideFadeLeft" src="./Images/picture.jpg">`** <br><br>
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/Avalojandro/)
 
