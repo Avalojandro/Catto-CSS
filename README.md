@@ -1,3 +1,5 @@
+[![Generic badge](https://img.shields.io/badge/<Catto-CSS>-<V.2.20>-<COLOR>.svg)](https://cattocss.com/)
+
 # Catto-CSS
 ## https://cattocss.com
 >You can also collaborate with this amazing software, please go to https://github.com/Avalojandro/Work-With-Us-Catto-CSS- for more information.
