@@ -1,4 +1,4 @@
-[![Generic badge](https://img.shields.io/badge/Catto-CSS-<STATUS>-<COLOR>.svg)](https://shields.io/)
+[![Only 32 Kb](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)](https://github.com/Avalojandro/Catto-CSS)
 
 # Catto-CSS
 ## https://cattocss.com
