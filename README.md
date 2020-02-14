@@ -3,7 +3,7 @@
 [![VERSION](https://img.shields.io/badge/Version-2.20-orange)](https://lbesson.mit-license.org/)
 [![OPEN SOURCE](https://img.shields.io/static/v1?label=Open-Source&message=❤&color=RED)](https://lbesson.mit-license.org/)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)<br>
+[![Website shields.io](https://img.shields.io/badge/CSS-Library-blue)](http://shields.io/)<br>
 
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://cattocss.com/)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://cattocss.com/)
