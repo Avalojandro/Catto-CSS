@@ -1,11 +1,13 @@
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-[![VERSION](https://img.shields.io/badge/Version-2.20-orange)](https://lbesson.mit-license.org/)<br>
+[![VERSION](https://img.shields.io/badge/Version-2.20-orange)](https://lbesson.mit-license.org/)
+[![OPEN SOURCE](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-red](https://lbesson.mit-license.org/)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)<br>
 
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://cattocss.com/)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://cattocss.com/)
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://cattocss.com/)
-[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/Naereen/)
+
 
 # Catto-CSS
 ## https://cattocss.com
