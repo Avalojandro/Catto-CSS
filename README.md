@@ -1,7 +1,7 @@
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![VERSION](https://img.shields.io/badge/Version-2.20-orange)](https://lbesson.mit-license.org/)
-[![OPEN SOURCE](https://img.shields.io/badge/Open%20Source-❤-red](https://lbesson.mit-license.org/)
+[![OPEN SOURCE](https://img.shields.io/badge/Open%20Source-%❤-orange](https://lbesson.mit-license.org/)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)<br>
 
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://cattocss.com/)
