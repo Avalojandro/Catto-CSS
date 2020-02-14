@@ -1,11 +1,10 @@
-
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://cattocss.com/)
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://cattocss.com/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Avalojandro/Catto-CSS/blob/master/MIT%20License)
 [![VERSION](https://img.shields.io/badge/Version-2.20-orange)](https://github.com/Avalojandro/Catto-CSS)
 [![OPEN SOURCE](https://img.shields.io/static/v1?label=Open-Source&message=❤&color=RED)](https://github.com/Avalojandro/Catto-CSS)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://cattocss.com/)
-[![Website shields.io](https://img.shields.io/badge/CSS-Library-blue)](https://github.com/Avalojandro/Catto-CSS)
-[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://cattocss.com/)
-[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://cattocss.com/)<br>
+[![Website shields.io](https://img.shields.io/badge/CSS-Library-blue)](https://github.com/Avalojandro/Catto-CSS)<br>
 [![Website shields.io](https://img.shields.io/badge/Star-Repository-inactive)](https://github.com/Avalojandro/Catto-CSS)
 
 # Catto-CSS
