@@ -54,5 +54,6 @@ You have an element `<h1>My Title</h1>` With the automatic animation you can pla
 The animation is activated through the browser scroll
 ### Example:
 You have an element `<img src="./Images/picture.jpg">` With the automatic animation you can place the class `s-o-slideFadeLeft` in your element, so then your code look like this: **`<img class="s-o-slideFadeLeft" src="./Images/picture.jpg">`** <br><br>
-[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/Avalojandro/) [![Join the chat at https://gitter.im/Catto-CSS/community](https://badges.gitter.im/Catto-CSS/community.svg)](https://gitter.im/Catto-CSS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/Avalojandro/)<br>
+[![Join the chat at https://gitter.im/Catto-CSS/community](https://badges.gitter.im/Catto-CSS/community.svg)](https://gitter.im/Catto-CSS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
