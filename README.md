@@ -1,5 +1,10 @@
 [![Only 32 Kb](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)](https://github.com/Avalojandro/Catto-CSS)
 [![Package Control total downloads](https://img.shields.io/packagecontrol/dt/SwitchDictionary.svg)](https://github.com/Avalojandro/Catto-CSS)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/Naereen/)
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://cattocss.com/)
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://cattocss.com/)
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://cattocss.com/)
 
 # Catto-CSS
 ## https://cattocss.com
