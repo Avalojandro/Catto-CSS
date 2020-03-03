@@ -1,5 +1,5 @@
     
-    //Catto CSS v1.20.01 | 2019 | MIT License | cattoscript.js 
+    //Catto CSS v.3.20 | 2020 | MIT License | cattoscript.js 
     //A proyect by: Alejandro Avalos | https://github.com/Avalojandro/Catto-CSS
     ///////////////////////////////////////////////////////////////////////////
     //This code was made with waypoints, http://imakewebthings.com/waypoints///
