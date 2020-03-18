@@ -1,0 +1,22 @@
+{
+  "name": "catto-css",
+  "version": "3.20.0",
+  "description": "\"An open source CSS animation library with which you can add animations to your website\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "catto-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avalojandro/Catto-CSS.git"
+  },
+  "keywords": [
+    "catto-css"
+  ],
+  "author": "Avalojandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avalojandro/Catto-CSS/issues"
+  },
+  "homepage": "https://github.com/Avalojandro/Catto-CSS#readme"
+}
