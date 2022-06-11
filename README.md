@@ -5,7 +5,7 @@
 [![OPEN SOURCE](https://img.shields.io/static/v1?label=Open-Source&message=❤&color=RED)](https://github.com/Avalojandro/Catto-CSS)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://cattocss.com/)
 [![Website shields.io](https://img.shields.io/badge/CSS-Library-blue)](https://github.com/Avalojandro/Catto-CSS)
-[![Gitter](https://badges.gitter.im/Catto-CSS/community.svg)](https://gitter.im/Catto-CSS/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)<br>
+<br>
 [![Website shields.io](https://img.shields.io/badge/Star-Repository-inactive)](https://github.com/Avalojandro/Catto-CSS)
 
 # Catto-CSS
